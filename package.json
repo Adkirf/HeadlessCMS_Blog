@@ -6,9 +6,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.1.0",
+    "html": "^1.0.0",
+    "moment": "^2.29.4",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-multi-carousel": "^2.8.2",
+    "react-parser": "^1.0.0",
+    "sass": "^1.58.3"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
