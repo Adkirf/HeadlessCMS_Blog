@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+
 import moment from 'moment';
-function PostDetail({post}) {
+
+const PostDetail = ({ post }) => {
   const getContentFragment = (index, text, obj, type) => {
     let modifiedText = text;
 
@@ -39,6 +41,7 @@ function PostDetail({post}) {
         return modifiedText;
     }
   };
+
   return (
     <>
       <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
@@ -77,4 +80,4 @@ function PostDetail({post}) {
   );
 };
 
-export default PostDetail
+export default PostDetail;
